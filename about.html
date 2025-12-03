@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⚓ PortCity Marina 🎣 | Hakkımızda</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background-color: #121212; color: #f0f0f0; }
+        .container { max-width: 1200px; margin: auto; padding: 20px; }
+        .header-menu { background-color: #004d99; padding: 18px 0; text-align: center; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); }
+        .header-menu a { color: white; text-decoration: none; margin: 0 25px; font-weight: 700; font-size: 1.1em; transition: color 0.3s; }
+        .header-menu a:hover { color: #ffeb3b; }
+        h1, h2, h3, h4 { color: #80bfff; }
+        
+        /* Zaman Çizelgesi Stili (ol zorunlu) */
+        .timeline { list-style-type: none; padding-left: 0; margin-top: 30px; }
+        .timeline li { 
+            margin-bottom: 25px; padding-left: 30px; border-left: 4px solid #4CAF50; position: relative; 
+            background-color: #1e1e1e; padding: 15px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+        }
+        .timeline li::before { content: '🗓️'; position: absolute; left: -15px; top: 15px; font-size: 1.2em; }
+        
+        /* Görsel 2 (Resim zorunlu) */
+        img { border-radius: 10px; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5); transition: transform 0.3s; }
+        img:hover { transform: scale(1.02); } 
+        
+        /* Harici Link Kutusu */
+        .info-box { 
+            background-color: #2a2a2a; padding: 25px; border-radius: 10px; 
+            border-left: 6px solid #ffeb3b; margin-top: 40px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-menu">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="about.html">Hakkımızda</a>
+        <a href="services.html">Aktiviteler & Mekanlar</a>
+        <a href="contact.html">İletişim</a>
+    </div>
+
+    <div class="container">
+        <h1>⚓ PortCity'nin Hikayesi ve Vizyonu</h1>
+
+        <p>
+            PortCity projesi, 2023 yılında başlayarak <u style="color: #4CAF50;">iki yıllık titiz</u> bir çalışma sonucunda tamamlanmıştır. Kuruluş amacımız, şehrin turizm potansiyelini maksimize etmek ve Akdeniz'in en prestijli marina kompleksi olmaktır. Projenin her aşamasında <b style="color: #ff4d4d;">sürdürülebilirlik</b> ilkeleri esas alınmıştır.
+            Bölge, *tarihi liman bölgesinin* modern bir yorumudur.
+            <span style="font-size: 0.9em; color: #999;">(Bu bir span etiketidir.)</span>
+        </p>
+
+        <h3 style="margin-top: 40px;">Vizyoner Planımız</h3>
+        <img src="images/vizyon_plan.jpg" alt="PortCity Vizyon Planı" width="100%" height="auto" style="max-width: 900px; display: block; margin: 30px auto;">
+
+        <h2>Proje Zaman Çizelgesi</h2>
+        <ol class="timeline">
+            <li>Tasarım ve Planlama Süreci (2023) - **Yenilikçi Mimariden Faydalanıldı.**</li>
+            <li>İnşaat ve Altyapı Çalışmaları (2024) - <i style="color: #ffeb3b;">Zorlu Kış Şartlarına Rağmen İlerleme Kaydedildi.</i></li>
+            <li>Hizmete Açılış ve Tanıtım (2025) - <u style="color: #80bfff;">Büyük Açılış Töreni Gerçekleştirildi.</u></li>
+        </ol>
+
+        <div class="info-box">
+             <h3 style="color: #ffeb3b;">Resmi Kaynaklar</h3>
+            <p>
+                Projenin detaylı raporlarına ve yerel yönetim bilgilerine ulaşmak için: 
+                <a href="http://www.tuzla.bel.tr" target="_blank" style="color: #80bfff; font-weight: bold;">Tuzla Belediyesi Resmi Web Sitesi (Harici Bağlantı)</a>
+            </p>
+        </div>
+    </div>
+
+    <div style="background-color: #000; color: white; text-align: center; padding: 30px; margin-top: 50px;">
+        <p>PortCity Marina © 2025 - Tüm Hakları Saklıdır.</p>
+    </div>
+
+</body>
+</html>

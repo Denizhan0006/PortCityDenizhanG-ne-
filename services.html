@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⚓ PortCity Marina 🎣 | Aktiviteler</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            background-color: #121212; 
+            color: #f0f0f0; 
+        }
+        .container { max-width: 1200px; margin: auto; padding: 20px; }
+        .header-menu { 
+            background-color: #004d99; 
+            padding: 18px 0; 
+            text-align: center; 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+        }
+        .header-menu a { 
+            color: white; 
+            text-decoration: none; 
+            margin: 0 25px; 
+            font-weight: 700; 
+            font-size: 1.1em; 
+            transition: color 0.3s; 
+        }
+        .header-menu a:hover { color: #ffeb3b; }
+        h1, h2, h3 { color: #80bfff; }
+        
+        /* Tablo Stilleri (th, tr, td zorunlu) */
+        table { 
+            border: none; 
+            border-collapse: collapse; 
+            width: 100%; 
+            margin: 30px 0; 
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7); 
+            background-color: #1e1e1e; 
+            border-radius: 10px; 
+            overflow: hidden; 
+        }
+        th, td { padding: 18px; text-align: left; border-bottom: 1px solid #333; }
+        th { background-color: #007bff; color: white; text-transform: uppercase; font-weight: 600; letter-spacing: 1px; }
+        tr:nth-child(even) { background-color: #2a2a2a; } /* Koyu çizgili satırlar */
+        
+        /* Liste Stilleri (ul zorunlu) */
+        .venue-list { 
+            list-style-type: none; 
+            padding-left: 0; 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
+            gap: 25px; 
+            margin-top: 30px; 
+        }
+        .venue-list li { 
+            background-color: #1e1e1e; 
+            padding: 20px; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+            font-weight: 500;
+            border-left: 5px solid #ffeb3b;
+            transition: background-color 0.3s;
+        }
+        .venue-list li:hover { background-color: #2a2a2a; }
+        .venue-list li::before { content: '✨ '; color: #ffeb3b; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <div class="header-menu">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="about.html">Hakkımızda</a>
+        <a href="services.html">Aktiviteler & Mekanlar</a>
+        <a href="contact.html">İletişim</a>
+    </div>
+
+    <div class="container">
+        <h1>⚓ PortCity Aktiviteler ve Etkinlikler 📅</h1>
+
+        <p>PortCity'de heyecanı kaçırma! Haftalık etkinlik programımız ve ilgi çekici mekanlarımız:</p>
+
+        <h2>Haftalık Etkinlik Programı</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Gün</th>
+                    <th>Saat</th>
+                    <th>Etkinlik</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pazartesi</td>
+                    <td>19:00</td>
+                    <td><b style="color: #ffeb3b;">Güneş Batımı Yoga Seansı</b> (Marina Terası)</td>
+                </tr>
+                <tr>
+                    <td>Çarşamba</td>
+                    <td>20:30</td>
+                    <td>Canlı Caz Performansı (<i style="color: #80bfff;">Lighthouse Bar</i>)</td>
+                </tr>
+                <tr>
+                    <td>Cumartesi</td>
+                    <td>14:00</td>
+                    <td><u style="color: #4CAF50;">Yelken ve Tekne Yarışları</u> (Misafir Katılımlı)</td>
+                </tr>
+                <tr>
+                    <td>Pazar</td>
+                    <td>17:00</td>
+                    <td>Açık Hava Sinema Gösterimi (Ailece)</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3 style="margin-top: 40px;">Keşfedilmesi Gereken Popüler Mekanlar (Tıkla ve Gör)</h3>
+<ul class="venue-list">
+    <li>
+        <a href="images/balıkçı.jpg" target="_blank">
+            Balıkçı'nın Yeri Restoranı (Özel VIP Bölümü)
+        </a>
+    </li>
+    <li>
+        <a href="images/sunset_view.jpg" target="_blank">
+            Sunset View Cafe (En iyi manzaraya sahip kokteyller)
+        </a>
+    </li>
+     <li>
+        <a href="images/kitap_kulübü.jpg" target="_blank">
+            PortCity Kitap & Kahve Kulübü (Sessiz ve Huzurlu)
+        </a>
+    </li>
+     <li>
+        <a href="images/butik_sokak.jpg" target="_blank">
+            Marina Butik Mağazalar Sokağı (Global Markalar)
+        </a>
+    </li>
+</ul>
